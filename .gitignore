@@ -1,0 +1,63 @@
+# Ignore files that shouldn't be in version control
+
+# OS and system files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Logs and temp files
+*.log
+*.tmp
+.cache/
+
+# Compiled binaries and build artifacts
+node_modules/
+target/
+dist/
+build/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-*
+
+# Sensitive information
+.env
+*.key
+*.pem
+id_rsa*
+*.p12
+
+# Application-specific ignore patterns
+.config/chromium/Default/
+.config/google-chrome/Default/
+.config/brave/Default/
+.config/microsoft-edge/Default/
+.config/vivaldi/Default/
+.config/firefox/
+.config/thunderbird/
+
+# Backup files created by package managers
+packages/official.txt.bak
+packages/aur.txt.bak
+
+# Local customizations that shouldn't be synced
+.local/
+.config/*/Custom/
+.config/*/User\ Data/
+
+# Large media files and cache
+*.tar.gz
+*.zip
+*.rar
+*.iso
+*.img
+
+# Temporary package files
+*.pkg.tar.*
+*.src.tar.gz
+
+# Keep .gitkeep files to maintain directory structure
+!.gitkeep

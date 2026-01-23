@@ -1,0 +1,5 @@
+antigravity
+brave-bin
+hyprdynamicmonitors-bin
+hyprmon-bin
+laptop-mode-tools

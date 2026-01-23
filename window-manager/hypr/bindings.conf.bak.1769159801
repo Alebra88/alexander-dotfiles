@@ -1,0 +1,28 @@
+# Application bindings
+bindd = SUPER, RETURN, Terminal, exec, xdg-terminal-exec
+bindd = SUPER SHIFT, F, File manager, exec, nautilus --new-window
+bindd = SUPER SHIFT, B, Browser, exec, brave
+bindd = SUPER SHIFT ALT, B, Browser (private), exec, brave --incognito
+bindd = SUPER SHIFT, M, Music, exec, spotify
+bindd = SUPER SHIFT, N, Editor, exec, gedit
+bindd = SUPER SHIFT, D, Docker, exec, lazydocker
+bindd = SUPER SHIFT, G, Signal, exec, signal-desktop
+bindd = SUPER SHIFT, O, Obsidian, exec, obsidian -disable-gpu --enable-wayland-ime
+bindd = SUPER SHIFT, W, Typora, exec, typora --enable-wayland-ime
+bindd = SUPER SHIFT, SLASH, Passwords, exec, 1password
+
+# If your web app url contains #, type it as ## to prevent hyprland treating it as a comment
+bindd = SUPER SHIFT, A, ChatGPT, exec, xdg-open "https://chatgpt.com"
+bindd = SUPER SHIFT ALT, A, Grok, exec, xdg-open "https://grok.com"
+bindd = SUPER SHIFT, C, Calendar, exec, xdg-open "https://app.hey.com/calendar/weeks/"
+bindd = SUPER SHIFT, E, Email, exec, xdg-open "https://app.hey.com"
+bindd = SUPER SHIFT, Y, YouTube, exec, xdg-open "https://youtube.com/"
+bindd = SUPER SHIFT ALT, G, WhatsApp, exec, xdg-open "https://web.whatsapp.com/"
+bindd = SUPER SHIFT CTRL, G, Google Messages, exec, xdg-open "https://messages.google.com/web/conversations"
+bindd = SUPER SHIFT, P, Google Photos, exec, xdg-open "https://photos.google.com/"
+bindd = SUPER SHIFT, X, X, exec, xdg-open "https://x.com/"
+bindd = SUPER SHIFT ALT, X, X Post, exec, xdg-open "https://x.com/compose/post"
+
+# Overwrite existing bindings, like putting Omarchy Menu on Super + Space
+# unbind = SUPER, SPACE
+# bindd = SUPER, SPACE, Omarchy menu, exec, omarchy-menu
