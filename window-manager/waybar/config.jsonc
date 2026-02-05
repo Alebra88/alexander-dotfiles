@@ -80,17 +80,18 @@
     "on-click": "omarchy-launch-wifi"
   },
   "battery": {
-    "format": "{capacity}% {time} {icon}",
-    "format-discharging": "{capacity}% {time} {icon}",
-    "format-charging": "{capacity}% {time} {icon}",
-    "format-plugged": "",
+    "format": "{capacity}% {icon} {time}",
+    "format-discharging": "{capacity}% {icon} {time}",
+    "format-charging": "{capacity}% {icon} {time}",
+    "format-plugged": " {capacity}%",
     "format-icons": {
       "charging": ["󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"],
       "default": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
     },
-    "format-full": "󰂅",
-    "tooltip-format-discharging": "{power:>1.0f}W↓ {capacity}%\nTime remaining: {time}",
-    "tooltip-format-charging": "{power:>1.0f}W↑ {capacity}%\nTime until full: {time}",
+    "format-full": "󰂅 100%",
+    "tooltip-format-discharging": "{time} remaining\n{power:>1.0f}W↓ {capacity}%",
+    "tooltip-format-charging": "{time} until full\n{power:>1.0f}W↑ {capacity}%",
+    "tooltip-format-plugged": "Fully charged\n{capacity}%",
     "interval": 5,
     "on-click": "omarchy-menu power",
     "states": {
